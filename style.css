@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:400,700');
+
+html, body {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #4891CE;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #000000;
+}
+
+header {
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 20px 40px;
+  box-shadow:0 1px 1px #ccc;
+  top:-100px;
+  margin-bottom: 10vh;
+}
+
+header img {
+  float: left;
+  padding: 12px;
+  max-width: 400px;
+}
+
+.header-right {
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 50px 40px;
+  box-shadow:0 1px 2px #ccc;
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+  border-radius: 25px;
+  margin-top: 10vh;
+}
+
+.container:hover {
+  box-shadow:0 1px 5px #1e1e1e;
+}
+
+.text {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 2rem;
+}
+
+.message {
+  padding: 50px 40px;
+  width: 50vw;
+  margin: auto;
+  margin-top: 5vh;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+@media(max-width: 1250px) {
+  .header-right {
+    display: none;
+  }
+  .text {
+    font-size: 1.5rem;
+  }
+  .message {
+    font-size: 1.2rem;
+  }
+}
+
+@media(max-width: 500px) {
+  header {
+    padding: none;
+  }
+  header img {
+    max-width: 250px;
+    padding: none;
+  }
+}
+
+@media(max-width: 300px) {
+  header img {
+    max-width: 200px;
+  }
+}
