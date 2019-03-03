@@ -20,9 +20,8 @@ header {
   overflow: hidden;
   background-color: #ffffff;
   padding: 20px 40px;
-  box-shadow:0 1px 1px #ccc;
   top:-100px;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 
 header img {
